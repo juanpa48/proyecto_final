@@ -41,12 +41,12 @@
 
     .header_sec2 {
      order: 1;   
-     background-color: green;
+     background-color: #B5EE27;
     }
 
     .header_sec3 {
      order: 3;
-     background-color: green;
+     background-color: #B5EE27;
     }
 
     /* --↑--fin del header y el nav---↑--*/

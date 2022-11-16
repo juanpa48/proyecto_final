@@ -25,7 +25,7 @@ img {
 /* -----------comienzo del header y el nav -----------*/
 
 header {
-    background-color: rgb(178, 211, 165);
+    background-color: white;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -68,7 +68,7 @@ nav {
 
 a{
     margin: 3px 0px;  /* en vez de margin poner borde arriba y abajo */
-    background-color: white;
+    background-color: #B5EE27;
 }
 
 .inicio {
@@ -116,7 +116,7 @@ a{
     display: flex;
     justify-content: center;
     text-align: center;
-    border: 3px solid green;
+    border: 3px solid #B5EE27;
 }
 
 .contenido1_item2 {
