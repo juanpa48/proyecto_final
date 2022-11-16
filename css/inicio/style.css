@@ -1,0 +1,138 @@
+:root {
+    --nav-font_size: 2.5rem;
+    --main-font_size: 2rem
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: var(--main-font_size);
+}
+
+img {
+    width: 100%;
+}
+
+/* -----------comienzo del header y el nav -----------*/
+
+header {
+    background-color: rgb(178, 211, 165);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cont_logoYmenu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.cont_logoYmenu a{
+    width: 150px;
+}
+
+.menu {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(41, 39, 39);
+}
+
+
+/*------nav------*/
+
+nav {
+    font-size: var(--nav-font_size);
+}
+
+.nav_uno {  /*nav ---- menu del nav */ 
+    display: none;
+ }
+
+.nav_dos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+}
+
+a{
+    margin: 3px 0px;  /* en vez de margin poner borde arriba y abajo */
+    background-color: white;
+}
+
+.inicio {
+    border: 4px solid orange;
+    border-radius: 10px;
+}
+
+
+/*aqui comienza el main*/
+
+.contain{
+    width: 99vw;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.column,.primary-column{
+    width: 95%;
+    min-width: 95%;
+    max-width: 95%;
+    padding: 10px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenido1 {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contenido1_item1{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 5px 5px;
+}
+
+.contenido1 p ~ div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid green;
+}
+
+.contenido1_item2 {
+    margin: 0px auto ;
+    margin-top: 15px;
+    width: 90%;
+}
+
+.contenido1_item2 img {
+    margin: 5px 0px;
+    background-color: red;
+    width: 100%;
+    border: 1px solid black;
+
+}
+
+
+
+

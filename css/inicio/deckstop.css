@@ -1,0 +1,45 @@
+  /*computadores*/
+
+  :root {
+    --max-width-main: 1350px;
+  }
+
+    nav, .cont_logoYmenu, .contenido1, footer {
+        max-width: 1350px;
+        margin: 0 auto;
+    }
+
+   
+
+    .sec1 {
+        background-color: rgb(247, 246, 243);
+    }
+
+    .contenido1 {
+        display: flex;
+        align-items: center;
+        margin: 0px auto;
+        padding-top: 40px;
+    }
+
+    
+    .contenido1_item1 {
+        width: 550px;
+        height: 100%;
+    }
+
+    .contenido1_item2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 0px 25px;
+    }
+
+    .contenido1_item2 img {
+        margin-top: 20px;
+        width: auto;
+        height: 400px;
+        border: 1px solid black;
+    
+    }
