@@ -1,8 +1,5 @@
   /*computadores*/
 
-  :root {
-    --max-width-main: 1350px;
-  }
 
     nav, .cont_logoYmenu, .contenido1, footer {
         max-width: 1350px;

@@ -1,7 +1,3 @@
-:root {
-    --nav-font_size: 2.5rem;
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,13 +5,7 @@
     text-decoration: none;
 }
 
-html {
-    font-size: 62.5%;
-}
 
-body {
-    font-size: 1.6rem;
-}
 
 img {
     width: 100%;
@@ -51,7 +41,7 @@ header {
 /*------nav------*/
 
 nav {
-    font-size: var(--nav-font_size);
+    font-size: 25px;
 }
 
 .nav_uno {  /*nav ---- menu del nav */ 

@@ -1,7 +1,4 @@
-:root {
-    --nav-font_size: 2.5rem;
-    --main-font_size: 2rem
-}
+
 
 * {
     box-sizing: border-box;
@@ -10,12 +7,10 @@
     text-decoration: none;
 }
 
-html {
-    font-size: 62.5%;
-}
+
 
 body {
-    font-size: var(--main-font_size);
+    font-size: 20px;
 }
 
 img {
@@ -52,7 +47,7 @@ header {
 /*------nav------*/
 
 nav {
-    font-size: var(--nav-font_size);
+    font-size: 25px;
 }
 
 .nav_uno {  /*nav ---- menu del nav */ 
@@ -79,25 +74,7 @@ a{
 
 /*aqui comienza el main*/
 
-.contain{
-    width: 99vw;
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
 
-.column,.primary-column{
-    width: 95%;
-    min-width: 95%;
-    max-width: 95%;
-    padding: 10px;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .contenido1 {
     width: 100%;
