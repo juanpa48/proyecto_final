@@ -24,7 +24,7 @@ img {
 /* -----------comienzo del header y el nav -----------*/
 
 header {
-    background-color: rgb(178, 211, 165);
+    background-color: white;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -56,10 +56,11 @@ nav {
 
 .nav_uno {  /*nav ---- menu del nav */ 
     display: none;
+    background-color: #B5EE27;
  }
 
 .nav_dos {
-    background-color: green;
+    background-color: #B5EE27;
     display: flex;
     flex-direction: column;
     text-align: center;
