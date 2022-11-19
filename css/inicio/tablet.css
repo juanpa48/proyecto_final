@@ -11,6 +11,7 @@
 
     .menu {
         display: none;
+        
     }
     
     .nav_uno {  /*nav ---- menu del nav */ 
@@ -48,13 +49,13 @@
 
     .header_sec2 {
      order: 2;   
-     background-color: #B5EE27;
+     background-color: #c4f252;
      margin-bottom: 5px;
     }
 
     .header_sec3 {
      order: 3;
-     background-color: #B5EE27;
+     background-color: #c4f252;
      margin-bottom: 5px;
     }
 

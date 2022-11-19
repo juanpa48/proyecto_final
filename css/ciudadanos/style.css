@@ -14,7 +14,7 @@ img {
 /* -----------comienzo del header y el nav -----------*/
 
 header {
-    background-color: white;
+    background-color: #96d201;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -59,12 +59,12 @@ nav {
 
 a{
     margin: 3px 0px;  /* en vez de margin poner borde arriba y abajo */
-    background-color: white;
+    
 }
 
 .inicio {
-    border: 4px solid orange;
     border-radius: 10px;
+    color: #c4f252;
 }
 
 
