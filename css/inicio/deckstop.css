@@ -6,10 +6,15 @@
         margin: 0 auto;
     }
 
-   
+   main {
+    height: 3000px;
+ 
+   }
 
     .sec1 {
-        background-color: rgb(247, 246, 243);
+        background-image: url(../../img/index/nature1920.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
     }
 
     .contenido1 {
@@ -40,3 +45,4 @@
         border: 1px solid black;
     
     }
+
