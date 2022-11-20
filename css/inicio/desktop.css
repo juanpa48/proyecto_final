@@ -1,4 +1,4 @@
-  /*computadores*/
+  /*computadores de escritorio*/
 
 
     nav, .cont_logoYmenu, .contenido1, footer {
@@ -7,7 +7,7 @@
     }
     
 
-    button{
+button{
 margin: 1px;    
 position: relative;
 padding: 1.1rem;
@@ -25,6 +25,7 @@ font-size: 20px;
 button:hover{
     color: #79aa00;
 }
+
 button span{
     position: absolute;
     background:#79aa00;
@@ -36,7 +37,6 @@ button span:nth-child(1) {
     height: 4px;
     top: 0;
     left: -100%;
-
 }
 
 button span:nth-child(2) {
@@ -83,13 +83,13 @@ button:hover span:nth-child(4) {
 .button1:hover{
     color: #5D8300;
 }
+
 .button1 span{
     position: absolute;
     background:#5D8300;
     transition: .5s;
 }
 
-    
     /* aqui comienza el main */
     .sec1 {
         background-image: url(../../img/index/fondo_inicio1920.jpg);
@@ -104,7 +104,6 @@ button:hover span:nth-child(4) {
         padding-top: 40px;
     }
 
-    
     .contenido1_item1 {
         width: 550px;
         height: 100%;
@@ -125,4 +124,3 @@ button:hover span:nth-child(4) {
         border: 1px solid black;
     
     }
-

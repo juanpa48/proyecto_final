@@ -1,13 +1,9 @@
-
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     text-decoration: none;
 }
-
-
 
 body {
     font-size: 20px;
@@ -18,8 +14,6 @@ img {
 }
 
 /* -----------comienzo del header y el nav -----------*/
-
-
 
 header {
     background-color: white;
@@ -45,8 +39,6 @@ button{
         color: #5D8300;
     }
 
-
-
 .cont_logoYmenu {
     display: flex;
     justify-content: space-evenly;
@@ -63,7 +55,6 @@ button{
     height: 50px;
     background-color: rgb(41, 39, 39);
 }
-
 
 /*------nav------*/
 
@@ -94,17 +85,12 @@ a{
 
 }
 
-
-
 /* menu y animacion */
 .menus{
 
 color: #79aa00;
 
 }
-
-
-
 
 
 /*aqui comienza el main*/
