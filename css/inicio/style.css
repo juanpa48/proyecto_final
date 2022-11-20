@@ -19,12 +19,33 @@ img {
 
 /* -----------comienzo del header y el nav -----------*/
 
+
+
 header {
     background-color: white;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
+
+button{
+    margin: 1px;    
+    padding: 1rem;
+    border: none;
+    background-color: #c4f252;
+    color: #79aa00;
+    font-size: 20px;
+    }
+
+    .button1, .button1 a{
+        background-color: #79aa00;
+    }
+    
+    .button1:hover{
+        color: #5D8300;
+    }
+
+
 
 .cont_logoYmenu {
     display: flex;
@@ -52,6 +73,7 @@ nav {
 
 .nav_uno {  /*nav ---- menu del nav */ 
     display: none;
+    
  }
 
 .nav_dos {
@@ -87,7 +109,11 @@ color: #79aa00;
 
 /*aqui comienza el main*/
 
-
+.sec1 {
+    background-image: url(../../img/index/fondo_inicio640.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 
 .contenido1 {
     width: 100%;
