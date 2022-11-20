@@ -1,0 +1,85 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+
+body {
+    font-size: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+/* -----------comienzo del header y el nav -----------*/
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cont_logoYmenu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.cont_logoYmenu a{
+    width: 150px;
+}
+
+.menu {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(41, 39, 39);
+}
+
+
+/*------nav------*/
+
+nav {
+    font-size: 25px;
+}
+
+.nav_uno {  /*nav ---- menu del nav */ 
+    display: none;
+ }
+
+.nav_dos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    background-color: #c4f252;
+}
+
+a{
+    margin: 3px 0px;  /* en vez de margin poner borde arriba y abajo */
+}
+
+.texto_color {
+
+    color: #c4f252;
+
+}
+
+
+
+/* menu y animacion */
+.menus{
+
+color: #79aa00;
+
+}
+
+
+
