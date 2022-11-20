@@ -44,11 +44,11 @@
     }
 
     .header_sec1 {
-     order: 1;
+     order: 2;
     }
 
     .header_sec2 {
-     order: 2;   
+     order: 1;   
      background-color: #c4f252;
      margin-bottom: 5px;
     }
