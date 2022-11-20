@@ -26,6 +26,23 @@ header {
     flex-direction: column;
 }
 
+button{
+    margin: 1px;    
+    padding: 1rem;
+    border: none;
+    background-color: #c4f252;
+    color: #79aa00;
+    font-size: 20px;
+    }
+
+    .button1, .button1 a{
+        background-color: #79aa00;
+    }
+    
+    .button1:hover{
+        color: #5D8300;
+    }
+
 .cont_logoYmenu {
     display: flex;
     justify-content: space-evenly;
@@ -64,6 +81,7 @@ nav {
 
 a{
     margin: 3px 0px;  /* en vez de margin poner borde arriba y abajo */
+    color: #79aa00;
 }
 
 .texto_color {
@@ -75,8 +93,8 @@ a{
 
 
 /* menu y animacion */
-.menus{
+/* .menus{
 
 color: #79aa00;
 
-}
+} */
