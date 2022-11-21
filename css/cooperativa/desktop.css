@@ -92,3 +92,10 @@ transition: .5s;
 p{
   text-align: center;
 }
+
+/*Aqui comienza el main*/
+
+.contenedor {
+  display: flex;
+  
+}

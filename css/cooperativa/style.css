@@ -91,3 +91,49 @@ a{
 color: #79aa00;
 
 } */
+
+/* ------------Aqui comienza el main --------*/
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+.text {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 10%;
+    background-color: #c4f252;
+    border-radius: 6px;
+    margin: 20px 0;
+}
+
+.text p {
+    padding-bottom: 30px;
+    text-align: center;
+    padding-top: 30px;
+    color: rgb(50, 74, 33);
+}
+.text button {
+    border-radius: 00.375rem;
+    background-color: #79aa00;
+    color: #c4f252;
+}
+
+.imagen {
+    display: flex;
+    
+}
+
+.maps {
+    display: flex;    
+    justify-content: center;
+   
+}
+
+.maps iframe {
+    border-radius: 10px;
+}
