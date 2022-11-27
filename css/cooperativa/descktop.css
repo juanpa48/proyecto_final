@@ -88,3 +88,22 @@ position: absolute;
 background:#5D8300;
 transition: .5s;
 }
+
+
+
+.contenedor {
+  display: flex;
+
+}
+
+.c1 {
+  background-color: #79aa00;
+  width: 40%;
+  height: 100px;
+}
+
+.c2 {
+  background-color: #79aa00;
+  width: 60%;
+  height: 100px;
+}
