@@ -64,6 +64,7 @@ nav {
 
 .nav_uno {  /*nav ---- menu del nav */ 
     display: none;
+    
  }
 
 .nav_dos {
@@ -75,19 +76,67 @@ nav {
 }
 
 a{
-    margin: 3px 0px;  /* en vez de margin poner borde arriba y abajo */
-    color: #79aa00;
+    margin: 3px 0px;  /* en vez de margin poner borde arriba y abajo */  
 }
 
-.texto_color {
+.inicio {
 
     color: #c4f252;
 
 }
 
 /* menu y animacion */
-/* .menus{
+.menus{
 
 color: #79aa00;
 
-} */
+}
+
+
+/*aqui comienza el main*/
+
+.sec1 {
+    background-image: url(../../../img/index/fondo_inicio640.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.contenido1 {
+    width: 100%;
+}
+
+.contenido1_item1{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 5px 5px;
+}
+
+.contenido1 p ~ div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid #c4f252;
+}
+
+.contenido1_item2 {
+    margin: 0px auto ;
+    margin-top: 15px;
+    width: 90%;
+}
+
+.contenido1_item2 img {
+    margin: 5px 0px;
+    background-color: red;
+    width: 100%;
+    border: 1px solid black;
+
+}
+
+
+
+
+
+

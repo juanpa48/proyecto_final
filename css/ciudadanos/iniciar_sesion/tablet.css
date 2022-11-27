@@ -1,0 +1,68 @@
+  /*tablets*/
+
+    /*---↓---header----↓----*/
+
+    /* ---↓---nav-----↓----*/
+    .cont_logoYmenu {
+        justify-content: start;
+        margin: 5px 0px;
+        margin-left: 30px;
+    }
+
+    .menu {
+        display: none;
+        
+    }
+    
+    .nav_uno {  /*nav ---- menu del nav */ 
+        display: flex;
+        justify-content: space-evenly;
+        order: 1;
+    }
+
+    /* .separacion{
+        background-color: white;
+        height: 2px;
+        width: 100vw;
+        order: 3;
+    } */
+    
+    .cont_logoYmenu {
+
+       order: 2;
+    }
+
+    .nav_dos{
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        order: 3;
+    }
+
+    section {
+        width: 100vw;
+    }
+
+    .header_sec1 {
+     order: 2;
+    }
+
+    .header_sec2 {
+     order: 1;   
+     background-color: #c4f252;
+     margin-bottom: 5px;
+    }
+
+    .header_sec3 {
+     order: 3;
+     background-color: #c4f252;
+     margin-bottom: 5px;
+    }
+
+    /* --↑--fin del header y el nav---↑--*/
+
+    /* main contain */
+
+    
+
+    

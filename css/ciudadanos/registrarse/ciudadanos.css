@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-size: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+/* -----------comienzo del header y el nav -----------*/
+
+/* -----------comienzo del header y el nav -----------*/
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button{
+    margin: 1px;    
+    padding: 1rem;
+    border: none;
+    background-color: #c4f252;
+    color: #79aa00;
+    font-size: 20px;
+    }
+
+    .button1, .button1 a{
+        background-color: #79aa00;
+    }
+    
+    .button1:hover{
+        color: #5D8300;
+    }
+
+.cont_logoYmenu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.cont_logoYmenu a{
+    width: 150px;
+}
+
+.menu {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(41, 39, 39);
+}
+
+/*------nav------*/
+
+nav {
+    font-size: 25px;
+}
+
+.nav_uno {  /*nav ---- menu del nav */ 
+    display: none;
+ }
+
+.nav_dos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    background-color: #c4f252;
+}
+
+a{
+    margin: 3px 0px;  /* en vez de margin poner borde arriba y abajo */
+    color: #79aa00;
+}
+
+.texto_color {
+
+    color: #c4f252;
+
+}
+
+/* menu y animacion */
+
+/*main*/
+
+
+
+.sec1_cont {
+    max-width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #c4f252;
+}
+
+.sec1_cont a{
+    margin: 0px 0px;
+    padding: 15px 15px;
+}
+
+.tip_registro {
+    background-color: #5D8300;
+    color: white;
+    font-weight: bolder ;
+}
+
+.sec2 {
+    margin-top: 20px;
+}
+
+form {
+    background-color:#7aaa00a6;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 500px;
+    width: 95%;
+    padding: 20px 15px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+label {
+    margin-top: 15px;
+}
+
+input, select {
+    height: 25px;
+}
+
+.submit{
+    margin-top: 23px;
+    height: 33px;
+    background-color:#9dd218;
+    border: 1px solid ;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/*main*/
+
+
+@media (min-width: 600px) {  
+
+    .sec1 {
+        padding-top: 30px;
+        display: flex;
+       
+    }
+
+.sec1_cont {
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+    
+    border-radius: 10px;
+    
+}
+
+.sec1_cont a{
+    border-radius: 5px;
+}
+
+.sec1_cont a:hover{
+    background-color: #699202;
+    color: white;
+    
+}
+
+
+
+
+}
+
+
