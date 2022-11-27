@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../../css/ciudadanos/iniciar_sesion/ciudadanos.css">
-    <link rel="stylesheet" href="../../css/ciudadanos/iniciar_sesion/tablet.css"  media="screen and (min-width: 600px)">
-    <link rel="stylesheet" href="../../css/ciudadanos/iniciar_sesion/desktop.css"  media="screen and (min-width: 800px)">
+    <link rel="stylesheet" href="../../css/ciudadanos/registrarse/ciudadanos.css">
+    <link rel="stylesheet" href="../../css/ciudadanos/registrarse/tablet.css"  media="screen and (min-width: 600px)">
+    <link rel="stylesheet" href="../../css/ciudadanos/registrarse/desktop.css"  media="screen and (min-width: 800px)">
 </head>
 <body>
 
@@ -60,7 +60,7 @@
 
                 <button>
                     <span></span><span></span><span></span><span></span>
-                    <a href="./registrarse.html">Registrarse como ciudadano</a>  
+                    <a href="./iniciar_sesion.html">Iniciar sesion</a>  
                 </button>
 
             </nav>
@@ -70,25 +70,51 @@
 
 
     <main>
+        <section class="sec1">
+            <div class="sec1_cont">
+                <a href="" class="tip_registro otro">Registrar como ciudadano</a>
+                <a href="">Registrar como empresa</a>
+                <a href="">Registrar como cooperativa</a>
+            </div>
+        </section>
+
         <section class="sec2">
                 <form action="">
-                    <label for="">Correo electronico</label>
+                    <label for="">Nombre completo</label>
+                    <input type="text" required>
+
+                    <label for="">Primer apellido</label>
+                    <input type="text" required>
+
+                    <label for="">Segundo apellido</label>
+                    <input type="text" required>
+
+                    <label for="">Correo</label>
                     <input type="email" required>
+
+                    <label for="">Celular</label>
+                    <input type="text" required>
 
                     <label for="">Contraseña</label>
                     <input type="password" required>
 
-                    <div class="botones_from">
-                             
-                        <input type="submit" value="Iniciar sesion" class="submit">
-                        
-                        <div>
-                            <p>¿    aun no te has registrado?</p>
-                            <input type="submit" value="Registrarse" class="submit">
-                        </div>
-                    
-                    </div>
-                    
+                    <label for="">Confirmar contraseña</label>
+                    <input type="password" required>
+
+                    <label for="">Barrio</label>
+                    <input type="text" required>
+
+                    <label for="">Direccion</label>
+                    <input type="text" required>
+
+                    <label for="">Vive en una urbanizacion</label>
+                    <select name="" id="">
+                        <option value=""></option>
+                        <option value="">SI</option>
+                        <option value="">No</option>
+                    </select>
+
+                    <input type="submit" value="Registrar" class="submit">
                 </form>
         </section>
     </main>

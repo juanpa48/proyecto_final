@@ -138,6 +138,7 @@ input, select {
 }
 
 .submit{
+    margin-top: 23px;
     height: 33px;
     background-color:#9dd218;
     border: 1px solid ;
@@ -173,11 +174,6 @@ input, select {
     background-color: #699202;
     color: white;
     
-}
-
-.botones_from {
-    display: flex;
-    justify-content: space-between;
 }
 
 
