@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../../css/negocios_empresas/iniciar_sesion/negocios_empresas.css">
-    <link rel="stylesheet" href="../../css/negocios_empresas/iniciar_sesion/tablet.css" media="screen and (min-width: 600px)">
-    <link rel="stylesheet" href="../../css/negocios_empresas/iniciar_sesion/desktop.css" media="screen and (min-width: 800px)">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="" media="screen and (min-width: 600px)">
+    <link rel="stylesheet" href="" media="screen and (min-width: 800px)">
 </head>
 <body>
     <header>
@@ -22,19 +22,18 @@
         <section class="header_sec2">
             <nav class="nav_uno">
 
-                <a href="../ciudadanos/ciudadanos.html">
-                <button>
+                <button class="button1">
                     <span></span><span></span><span></span><span></span>
                     
-                    Ciudadanos
+                    <a href="./ciudadanos.html" class="texto_color">Ciudadanos</a>
                 </button>
-                </a>
+
                     
 
                     <a href="../negocios_empresas/negocios_empresas.html">
-                        <button  class="button1">
+                        <button>
                             <span></span><span></span><span></span><span></span>
-                            <p class="texto_color">Negocios o Empresas</p>
+                            Negocios o Empresas
                         </button>
                     </a>
 
@@ -70,25 +69,40 @@
 
 
     <main>
+        <section class="sec1">
+            <div class="sec1_cont">
+                <a href="">Registro ciudadano</a>
+                <a href="">Registro empresa</a>
+                <a href="">Registro cooperativa</a>
+            </div>
+        </section>
+
         <section class="sec2">
                 <form action="">
-                    <label for="">Correo electronico</label>
-                    <input type="email" required>
+                    <label for="">Nombre de la empresa</label>
+                    <input type="text">
 
-                    <label for="">Contraseña</label>
-                    <input type="password" required>
+                    <label for="">correo de la empresa</label>
+                    <input type="text">
 
-                    <div class="botones_from">
-                             
-                        <input type="submit" value="Iniciar sesion" class="submit">
-                        
-                        <div>
-                            <p>¿    aun no te has registrado?</p>
-                            <input type="submit" value="Registrarse" class="submit">
-                        </div>
-                    
-                    </div>
-                    
+                    <label for="">telefono de la empresa</label>
+                    <input type="text">
+
+                    <label for="">celular de la empresa</label>
+                    <input type="text">
+
+                    <label for="">barrio</label>
+                    <input type="text">
+
+                    <label for="">direccion</label>
+                    <input type="text">
+
+                    <label for="">Vive en una urbanizacion</label>
+                    <select name="" id="">
+                        <option value=""></option>
+                        <option value="">SI</option>
+                        <option value="">No</option>
+                    </select>
                 </form>
         </section>
     </main>
